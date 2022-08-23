@@ -6,11 +6,15 @@
 
 <script>
   export default {
-    name: 'formItem',
+    name: 'lFormItem',
     components: {},
     props: {
-      width: {
-        type: [String, Number],
+      label: {
+        type: String,
+        default: ''
+      },
+      prop: {
+        type: String,
         default: ''
       }
     },
