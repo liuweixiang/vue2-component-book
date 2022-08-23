@@ -8,7 +8,12 @@
   export default {
     name: 'formItem',
     components: {},
-    props: {},
+    props: {
+      width: {
+        type: [String, Number],
+        default: ''
+      }
+    },
     data() {
       return {}
     },
